@@ -1,0 +1,39 @@
+# Qt6 for webOS (HP TouchPad) - .gitignore
+
+# Qt6 source code (5+ GB, download separately)
+qt6-src/
+
+# Build artifacts and install directories
+qt6-host/
+qt6-softfloat-install/
+qt6-hello-softfloat-build/
+qt6-arm-glibc-custom-build/
+gawk-install/
+
+# Old/unused build directories
+QT5/
+QT5-unpacked/
+
+# Sysroot (users must provide their own)
+webos-softfloat-sysroot/
+webos-glibc-sysroot/
+
+# Packaged IPKs (can be rebuilt)
+QT6-packages/
+
+# Build logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*~
+
+# macOS
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+*.code-workspace
