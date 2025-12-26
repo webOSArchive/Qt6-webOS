@@ -1,0 +1,9 @@
+Package: com.nizovn.qt6
+Version: 6.6.3-0
+Architecture: armv7
+Maintainer: jonwise
+Description: Qt6 runtime libraries
+Section: System Utilities
+Priority: optional
+Depends: com.nizovn.glibc6
+Source: { "Feed":"WebOS Internals", "Type":"Library", "Category":"System Utilities", "Title":"Qt6 Libraries", "FullDescription":"Qt 6.6.3 runtime libraries compiled for webOS 3.0.5 (ARM Cortex-A8)" }

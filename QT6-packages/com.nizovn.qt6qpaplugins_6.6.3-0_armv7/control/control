@@ -1,0 +1,9 @@
+Package: com.nizovn.qt6qpaplugins
+Version: 6.6.3-0
+Architecture: armv7
+Maintainer: jonwise
+Description: Qt6 QPA platform plugins for webOS
+Section: System Utilities
+Priority: optional
+Depends: com.nizovn.glibc6, com.nizovn.qt6
+Source: { "Feed":"WebOS Internals", "Type":"Library", "Category":"System Utilities", "Title":"Qt6 QPA Plugins", "FullDescription":"Qt6 platform abstraction plugins including eglfs for webOS 3.0.5" }

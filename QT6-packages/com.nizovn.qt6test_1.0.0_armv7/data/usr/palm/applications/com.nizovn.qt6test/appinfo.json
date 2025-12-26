@@ -1,0 +1,9 @@
+{
+    "id": "com.nizovn.qt6test",
+    "version": "1.0.0",
+    "vendor": "jonwise",
+    "type": "pdk",
+    "main": "run-qt6test.sh",
+    "title": "Qt6 Test",
+    "icon": "icon.png"
+}

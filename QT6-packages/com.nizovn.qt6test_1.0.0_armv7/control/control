@@ -1,0 +1,9 @@
+Package: com.nizovn.qt6test
+Version: 1.0.0
+Architecture: armv7
+Maintainer: jonwise
+Description: Qt6 Test Application
+Section: Applications
+Priority: optional
+Depends: com.nizovn.glibc6, com.nizovn.qt6, com.nizovn.qt6qpaplugins
+Source: { "Feed":"WebOS Internals", "Type":"Application", "Category":"System Utilities", "Title":"Qt6 Test App", "FullDescription":"Simple Qt6 QML test application for webOS 3.0.5" }

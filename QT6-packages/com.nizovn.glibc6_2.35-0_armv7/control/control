@@ -1,0 +1,9 @@
+Package: com.nizovn.glibc6
+Version: 2.35-0
+Architecture: armv7
+Maintainer: jonwise
+Description: Glibc 2.35 runtime libraries (soft-float) for Qt6
+Section: System Utilities
+Priority: optional
+Depends:
+Source: { "Feed":"WebOS Internals", "Type":"Library", "Category":"System Utilities", "Title":"Glibc 2.35 for Qt6", "FullDescription":"Soft-float glibc 2.35 from GCC 13 toolchain, required for Qt6 on webOS 3.0.5 (ARMv7 soft-float ABI). Coexists with Qt5 glibc." }
