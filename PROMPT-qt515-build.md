@@ -43,7 +43,7 @@ readelf -n libc.so.6 | grep -A1 "ABI:"
 
 ### 3. EGL/OpenGL ES Stubs
 Qt needs EGL headers for cross-compilation. We created stub libraries at:
-`/home/jonwise/Projects/Qt-webOS/webos-egl-stubs/`
+`~/Projects/Qt-webOS/webos-egl-stubs/`
 
 **IMPORTANT**: Stub libraries MUST have SONAME set, otherwise absolute build paths get baked into binaries:
 ```bash
@@ -56,7 +56,7 @@ Use PalmPDK headers: `/opt/PalmPDK/include/GLES2/`
 
 ### 5. SDL Library
 The device's original SDL has issues. Use rebuilt version:
-`/home/jonwise/Projects/Qt-webOS/rebuilt-libs/libSDL-1.2.so.0.11.2`
+`~/Projects/Qt-webOS/rebuilt-libs/libSDL-1.2.so.0.11.2`
 
 ### 6. Package Deployment
 - Use `palm-install` for deployment (handles cryptofs correctly)
