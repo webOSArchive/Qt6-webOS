@@ -1,3 +1,5 @@
+# Building QT6
+
 This project is an attempt to build QT6 for webOS TouchPads (armv7). So far, it hasn't succeeded.
 
 Packages have been built, but ultimately QT6 apps cannot run.
@@ -17,6 +19,8 @@ We're stuck in a compatibility matrix:
   - ARM soft-float
 
   This requires installing crosstool-ng and building a complete toolchain. It's the only proper path forward - there's no shortcut around this compatibility matrix.
+
+# Alternatives
 
 An alternative may be building QT5.15. A prompt to kick off that effort is in PROMPT-qt515-build.md
 
